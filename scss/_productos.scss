@@ -1,0 +1,37 @@
+/* PAGINA PRODUCTOS */
+.list-group{
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.lista-productos{
+    margin-top: 300px;
+}
+.list-group-item.active{
+    color: #555;
+    background-color: rgba(250,250,250,1);
+    border-color:  rgb(255, 144, 126);
+}
+.color-body{
+    background: linear-gradient(239deg, rgba(250,250,250,1) 0%, rgba(255,214,208,1) 70%);
+    height: 100vh;
+}
+@media screen and (max-width: 768px){
+    .list-group-item{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 424px){
+    .list-group-item{
+        padding: .75rem 1.25rem;
+    }
+}
+@media screen and (max-width: 374px){
+    .list-group-item{
+        padding: .75rem 1.25rem;
+    }
+}
+@media screen and (max-width: 319px){ 
+    .list-group-item{
+        padding: .75rem 1.25rem;
+    }
+}
