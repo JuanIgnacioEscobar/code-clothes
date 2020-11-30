@@ -60,15 +60,19 @@ ul {
 /* responsive menu */
 @media screen and (max-width: 1200px) {
   .fixed-top {
-    max-height: 130px; } }
+    max-height: 120px; } }
 
-@media screen and (max-width: 992px) {
-  .fixed-top {
-    max-height: 130px; } }
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    max-height: 120px;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start; } }
 
 @media screen and (max-width: 768px) {
-  .fixed-top {
-    max-height: 200px; } }
+  .navbar-menu {
+    max-height: 130px; } }
 
 /* INICIO */
 .inicio {
@@ -82,6 +86,9 @@ ul {
 .bg-none {
   background: transparent;
   border: none; }
+
+.texto-principal {
+  margin-top: 90px; }
 
 /* responsive img inicio */
 @media screen and (max-width: 1200px) {
