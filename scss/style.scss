@@ -33,6 +33,27 @@ ul{
 /* MENU */
 .navbar{
     background: rgba(255,214,208,1);
+    font-size: 1.2rem;
+}
+#navbarNavDropdown{
+    background: rgba(255,214,208,1);
+}
+
+/* responsive menu */
+@media screen and (max-width: 1200px){
+    .fixed-top{
+        max-height: 130px;
+    }
+}
+@media screen and (max-width: 992px){
+    .fixed-top{
+        max-height: 130px;
+    }
+}
+@media screen and (max-width: 768px){
+    .fixed-top{
+        max-height: 200px;
+    }
 }
 /* INICIO */
 .inicio{
@@ -201,7 +222,14 @@ ul{
     margin-top: 70px;
 }
 #titulo-tiendas{
-    @include titulos();
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #555;
+    top: 60px;
 }
 #titulo-tiendas::after{
     content: '';
