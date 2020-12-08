@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* PAGINA PRODUCTOS */
 .list-group {
   margin-top: 300px;
@@ -205,22 +206,51 @@ ul {
   background: #ffd6d0;
   background: linear-gradient(239deg, #fafafa 0%, #ffd6d0 70%); }
 
+.btn-primary {
+  border-color: #ff523b; }
+
+.btn-primary.focus, .btn-primary:focus {
+  border-color: #ff523b;
+  box-shadow: none;
+  background-color: #ff523b; }
+
+.img-modal {
+  width: 500px; }
+
+.modal-body h2 {
+  margin-top: 50px;
+  font-weight: 700; }
+
+.modal-body p {
+  margin-top: 20px;
+  color: #555; }
+
+@media screen and (max-width: 768px) {
+  .exclusivo-img {
+    width: 450px; } }
+
 @media screen and (max-width: 425px) {
   .exclusivo-img {
     display: none; }
   .card--exclusivo {
     text-align: center;
-    margin-left: 85px; } }
+    margin-left: 85px; }
+  .img-modal {
+    width: 420px; } }
 
 @media screen and (max-width: 375px) {
   .exclusivo-img {
     display: none; }
   .card--exclusivo {
-    margin-right: 85px; } }
+    margin-right: 85px; }
+  .img-modal {
+    width: 370px; } }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
   .exclusivo-img {
-    display: none; } }
+    display: none; }
+  .img-modal {
+    width: 280px; } }
 
 /* TIENDAS */
 .caja-tiendas {
@@ -303,6 +333,7 @@ ul {
 
 /* FOOTER */
 #footer {
+  margin-top: 80px;
   background: #000;
   color: #8a8a8a;
   font-size: 14px;
@@ -321,3 +352,54 @@ ul {
   color: #fff;
   font-size: 35px;
   margin-left: 35px; }
+
+.app-logo a img {
+  padding: 2px; }
+
+.politicas-devolución {
+  cursor: pointer;
+  color: #555; }
+
+.politicas-devolución:hover {
+  color: #333; }
+
+@media screen and (max-width: 320px) {
+  .app-logo a img {
+    margin-left: 50px; }
+  .links-usuarios {
+    margin-right: 40px; }
+  .links-redes {
+    margin-right: 40px; } }
+
+@media screen and (max-width: 425px) {
+  .descargar-app {
+    margin-left: 75px; }
+  .app-logo a img {
+    margin-left: 35px; } }
+
+@media screen and (max-width: 375px) {
+  .descargar-app {
+    margin-left: 50px; }
+  .app-logo a img {
+    margin-right: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .descargar-app {
+    margin-left: 10px; }
+  .app-logo a img {
+    margin-right: 5px; } }
+
+/* RESPONSIVE DE LA PAGINA */
+@media screen and (max-width: 1200px) {
+  .mapa {
+    width: 450px; }
+  .fixed-top {
+    max-height: 120px; } }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    max-height: 120px;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start; } }
