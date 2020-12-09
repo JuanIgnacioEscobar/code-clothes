@@ -52,28 +52,14 @@ ul {
 
 /* MENU */
 .navbar {
-  background: #ffd6d0;
+  background: #ffd6d0 !important;
   font-size: 1.2rem; }
 
-#navbarNavDropdown {
-  background: #ffd6d0; }
+.navbar-collapse {
+  margin-right: 200px; }
 
-/* responsive menu */
-@media screen and (max-width: 1200px) {
-  .fixed-top {
-    max-height: 120px; } }
-
-@media (min-width: 992px) {
-  .navbar-expand-lg {
-    max-height: 120px;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start; } }
-
-@media screen and (max-width: 768px) {
-  .navbar-menu {
-    max-height: 130px; } }
+.logo-1 {
+  margin-left: 200px; }
 
 /* INICIO */
 .inicio {
@@ -92,32 +78,6 @@ ul {
   margin-top: 90px; }
 
 /* responsive img inicio */
-@media screen and (max-width: 1200px) {
-  .inicio-img {
-    width: 450px; } }
-
-@media screen and (max-width: 992px) {
-  .inicio-img {
-    width: 250px; } }
-
-@media screen and (max-width: 767px) {
-  .inicio-img_col {
-    display: none; } }
-
-@media screen and (max-width: 424px) {
-  .inicio-img_col {
-    display: none; } }
-
-@media screen and (max-width: 374px) {
-  .inicio-img_col {
-    display: none; } }
-
-@media screen and (max-width: 319px) {
-  .inicio-img_col {
-    display: none; }
-  .bg-gradient {
-    width: 100%; } }
-
 /* CARD */
 .card-title {
   font-family: 'Poppins', sans-serif;
@@ -214,6 +174,17 @@ ul {
   box-shadow: none;
   background-color: #ff523b; }
 
+.modal-header {
+  background: #ffd6d0;
+  border: none; }
+
+.modal-body {
+  border: none; }
+
+.modal-footer {
+  background: #ffd6d0;
+  border-top: none; }
+
 .img-modal {
   width: 500px; }
 
@@ -297,10 +268,6 @@ ul {
   list-style-type: none; }
 
 /* responsive tiendas */
-@media screen and (max-width: 1200px) {
-  .mapa {
-    width: 450px; } }
-
 @media screen and (max-width: 992px) {
   .mapa {
     display: none; }
@@ -363,6 +330,12 @@ ul {
 .politicas-devolución:hover {
   color: #333; }
 
+.text-footer {
+  text-align: center;
+  margin-bottom: 0;
+  background: #050505;
+  color: #fff; }
+
 @media screen and (max-width: 320px) {
   .app-logo a img {
     margin-left: 50px; }
@@ -391,15 +364,31 @@ ul {
 
 /* RESPONSIVE DE LA PAGINA */
 @media screen and (max-width: 1200px) {
-  .mapa {
+  .inicio-img {
     width: 450px; }
-  .fixed-top {
-    max-height: 120px; } }
+  .mapa {
+    width: 450px; } }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg {
-    max-height: 120px;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start; } }
+@media screen and (max-width: 992px) {
+  .inicio-img {
+    width: 250px; } }
+
+@media screen and (max-width: 768px) {
+  .inicio-img_col {
+    display: none; }
+  .logo-1 {
+    margin-left: 100px; } }
+
+@media screen and (max-width: 424px) {
+  .inicio-img_col {
+    display: none; } }
+
+@media screen and (max-width: 374px) {
+  .inicio-img_col {
+    display: none; } }
+
+@media screen and (max-width: 319px) {
+  .inicio-img_col {
+    display: none; }
+  .bg-gradient {
+    width: 100%; } }
