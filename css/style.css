@@ -77,7 +77,6 @@ ul {
 .texto-principal {
   margin-top: 90px; }
 
-/* responsive img inicio */
 /* CARD */
 .card-title {
   font-family: 'Poppins', sans-serif;
@@ -196,33 +195,6 @@ ul {
   margin-top: 20px;
   color: #555; }
 
-@media screen and (max-width: 768px) {
-  .exclusivo-img {
-    width: 450px; } }
-
-@media screen and (max-width: 425px) {
-  .exclusivo-img {
-    display: none; }
-  .card--exclusivo {
-    text-align: center;
-    margin-left: 85px; }
-  .img-modal {
-    width: 420px; } }
-
-@media screen and (max-width: 375px) {
-  .exclusivo-img {
-    display: none; }
-  .card--exclusivo {
-    margin-right: 85px; }
-  .img-modal {
-    width: 370px; } }
-
-@media screen and (max-width: 320px) {
-  .exclusivo-img {
-    display: none; }
-  .img-modal {
-    width: 280px; } }
-
 /* TIENDAS */
 .caja-tiendas {
   display: flex;
@@ -268,30 +240,6 @@ ul {
   list-style-type: none; }
 
 /* responsive tiendas */
-@media screen and (max-width: 992px) {
-  .mapa {
-    display: none; }
-  .ubicacion {
-    text-align: start; } }
-
-@media screen and (max-width: 767px) {
-  .mapa_col {
-    display: none; }
-  .ubicacion {
-    text-align: start; } }
-
-@media screen and (max-width: 424px) {
-  .mapa_col {
-    display: none; }
-  .ubicacion {
-    text-align: start; } }
-
-@media screen and (max-width: 374px) {
-  .mapa_col {
-    display: none; }
-  .ubicacion {
-    text-align: start; } }
-
 @media screen and (max-width: 319px) {
   .mapa_col {
     display: none; }
@@ -312,7 +260,7 @@ ul {
 #footer h3 {
   color: #fff; }
 
-.links-usuarios, .links-redes {
+.links-redes {
   text-align: center; }
 
 #footer span {
@@ -336,32 +284,6 @@ ul {
   background: #050505;
   color: #fff; }
 
-@media screen and (max-width: 320px) {
-  .app-logo a img {
-    margin-left: 50px; }
-  .links-usuarios {
-    margin-right: 40px; }
-  .links-redes {
-    margin-right: 40px; } }
-
-@media screen and (max-width: 425px) {
-  .descargar-app {
-    margin-left: 75px; }
-  .app-logo a img {
-    margin-left: 35px; } }
-
-@media screen and (max-width: 375px) {
-  .descargar-app {
-    margin-left: 50px; }
-  .app-logo a img {
-    margin-right: 35px; } }
-
-@media screen and (max-width: 320px) {
-  .descargar-app {
-    margin-left: 10px; }
-  .app-logo a img {
-    margin-right: 5px; } }
-
 /* RESPONSIVE DE LA PAGINA */
 @media screen and (max-width: 1200px) {
   .inicio-img {
@@ -371,24 +293,89 @@ ul {
 
 @media screen and (max-width: 992px) {
   .inicio-img {
-    width: 250px; } }
+    width: 250px; }
+  .mapa {
+    display: none; }
+  .ubicacion {
+    text-align: start; } }
 
 @media screen and (max-width: 768px) {
   .inicio-img_col {
     display: none; }
   .logo-1 {
-    margin-left: 100px; } }
+    margin-left: 50px; }
+  .navbar-toggler {
+    margin-right: 80px; }
+  .mapa_col {
+    display: none; }
+  .ubicacion {
+    text-align: start; }
+  .exclusivo-img {
+    width: 450px; } }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
   .inicio-img_col {
-    display: none; } }
+    display: none; }
+  .mapa_col {
+    display: none; }
+  .ubicacion {
+    text-align: start; }
+  .descargar-app {
+    margin-left: 62px; }
+  .links-redes {
+    margin-right: 33px; }
+  .app-logo a img {
+    margin-left: 35px; }
+  .exclusivo-img {
+    display: none; }
+  .card--exclusivo {
+    text-align: center;
+    margin-left: 85px; }
+  .img-modal {
+    width: 420px; }
+  .logo-1 {
+    margin-left: 20px; } }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
   .inicio-img_col {
-    display: none; } }
+    display: none; }
+  .exclusivo-img {
+    display: none; }
+  .mapa_col {
+    display: none; }
+  .ubicacion {
+    text-align: start; }
+  .card--exclusivo {
+    margin-right: 85px; }
+  .img-modal {
+    width: 370px; }
+  .links-redes {
+    margin-right: 47px; }
+  .descargar-app {
+    margin-left: 30px; }
+  .app-logo a img {
+    margin-right: 35px; }
+  .logo-1 {
+    margin-left: 5px; } }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
   .inicio-img_col {
     display: none; }
   .bg-gradient {
-    width: 100%; } }
+    width: 100%; }
+  .logo-1 {
+    margin-left: 1px; }
+  .navbar-toggler {
+    margin-right: 3px; }
+  .links-redes {
+    margin-right: 40px; }
+  .descargar-app {
+    margin-left: 5px; }
+  .exclusivo-img {
+    display: none; }
+  .img-modal {
+    width: 280px; }
+  .app-logo a img {
+    margin-left: 35px; }
+  .links-redes {
+    margin-right: 42px; } }
