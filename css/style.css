@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* PAGINA PRODUCTOS */
 .list-group {
   margin-top: 300px;
@@ -16,6 +15,14 @@
   background: linear-gradient(239deg, #fafafa 0%, #ffd6d0 70%);
   height: 100vh; }
 
+/* FOOTER */
+.text-footer {
+  text-align: center;
+  margin-bottom: 0;
+  background: #050505;
+  color: #fff; }
+
+/* RESPONSIVE PRODUCTOS */
 @media screen and (max-width: 768px) {
   .list-group-item {
     padding: 0; } }
@@ -270,13 +277,6 @@ ul {
 
 .app-logo a img {
   padding: 2px; }
-
-.politicas-devolución {
-  cursor: pointer;
-  color: #555; }
-
-.politicas-devolución:hover {
-  color: #333; }
 
 .text-footer {
   text-align: center;
